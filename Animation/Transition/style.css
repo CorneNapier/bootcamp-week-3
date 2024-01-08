@@ -14,3 +14,16 @@
     height: 400px;
     background-color: burlywood;
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 10px auto;
+    background-color: darkgoldenrod;
+    transition: background-color 1s, padding 3s;
+}
+
+button:hover {
+    background-color: cadetblue;
+    padding: 15px 60px;
+}
