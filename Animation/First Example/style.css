@@ -1,0 +1,48 @@
+* {
+    font-size: 36px;
+}
+
+@keyframes animation1 {
+    from{
+        background-color: brown;
+
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+.animationOne {
+    animation-name: animation1;
+    animation-duration: 2s;
+    /* animation-fill-mode: forwards; */
+}
+
+@keyframes animation2 {
+    0% {
+        background-color: brown;
+
+    }
+    25% {
+        background-color: burlywood;
+
+    }
+    50% {
+        background-color: cadetblue;
+        border: 10px solid;
+
+    }
+    75% {
+        background-color: chartreuse;
+
+    }
+    100% {
+        background-color: blue;
+
+    }
+}
+
+.animationTwo {
+    animation-name: animation2;
+    animation-duration: 10s;
+}
