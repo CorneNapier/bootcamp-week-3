@@ -68,9 +68,44 @@
     background-color: crimson;
     border-radius: 50%;
     margin-top: 50px;
-    animation-name: animation3;
+    animation-name: animation3, animation2;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-direction: reverse;
+}
+/* Task */
+
+@keyframes animation4 {
+    0% {
+        left: 0%;
+    }
+    25% {
+        left: 50%;
+        transform: translateY(0)
+    }
+    50% {
+        left: 50%;
+        transform: translateY(200px);
+    }
+    75% {
+        left: 50%
+    }
+    100% {
+        left: 0%;
+        transform: translateY(200px);
+    }
+}
+
+.task {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    margin-top: 200px;
+    animation-name: animation4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   
 }
