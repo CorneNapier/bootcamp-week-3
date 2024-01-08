@@ -1,0 +1,16 @@
+.transition {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    margin: 100px auto;
+    border-radius: 50%;
+    transition-property: width, height, background-color;
+    transition-duration: 1s;
+    
+}
+
+.transition:hover {
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+}
