@@ -48,3 +48,29 @@
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
+
+/* Animation Three */
+@keyframes animation3 {
+    from {
+        left: -10%;
+
+    }
+    to {
+        left: 100%;
+
+    }
+}
+
+
+.animationThree {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 50%;
+    margin-top: 50px;
+    animation-name: animation3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
