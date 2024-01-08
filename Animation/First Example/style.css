@@ -15,6 +15,7 @@
 .animationOne {
     animation-name: animation1;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
     /* animation-fill-mode: forwards; */
 }
 
@@ -45,4 +46,5 @@
 .animationTwo {
     animation-name: animation2;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
